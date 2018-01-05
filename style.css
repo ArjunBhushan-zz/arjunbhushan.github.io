@@ -219,15 +219,69 @@ footer .icon a:hover{
   display: grid;
   grid-template: 100px 100px 100px / 1fr;
 }
+.content-contact{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  grid-column-gap: 50px;
+}
+.content-left{
+  grid-column: 1 / span 1;
+}
+.content-contact .titles{
+  font-family: 'EB Garamond', serif;
+  color: rgba(26, 26, 26, 0.9);
+  margin-top:100px;
+  margin-left: 100px;
+  font-size: 48px;
+}
 
-.content{
+.content-contact .sub-title{
+  font-family: 'EB Garamond', serif;
+  color: rgba(26, 26, 26, 0.9);
+  margin-left: 100px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.content-contact h4{
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(26, 26, 26, 0.9);
+  margin-left: 100px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.content-contact .information{
+  font-family: 'EB Garamond', serif;
+  color: rgba(26, 26, 26, 0.9);
+  margin-left: 100px;
+  font-size: 18px;
+}
+
+.content-contact .information a{
+  text-decoration: none;
+}
+
+.map{
+  grid-column: 2 / span 1;
+  margin: 50px;
+  background-image: url(https://drive.google.com/uc?export=download&id=1e5WXWGFO1UiNPuPSjgUqruvyM2Ag3r6X);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content-resume{
   display: grid;
   grid-template-columns: 3fr 4fr;
   justify-items: left;
   grid-row-gap: 0px;
 }
 
-.content .titles {
+.content-resume .titles {
   width: 200px;
   font-family: 'Montserrat', sans-serif;
   text-transform: capitalize;
@@ -238,7 +292,7 @@ footer .icon a:hover{
   font-size: 26px;
   margin-bottom:0px;
 }
-.content ul{
+.content-resume ul{
   font-family: 'Montserrat', sans-serif;
   margin-top:85px;
   margin-lefT: 100px;
@@ -246,21 +300,21 @@ footer .icon a:hover{
   grid-column: 2 / span 1;
 }
 
-.content li{
+.content-resume li{
   margin-bottom: 10px;
 }
 
-.content h3{
+.content-resume h3{
   text-transform: uppercase;
   font-size: 18px;
 }
 
-.content h4{
+.content-resume h4{
   font-size: 16px;
   font-weight: 800;
 }
 
-.content h6{
+.content-resume h6{
   font-size: 14px;
   font-weight: 400;
 }
