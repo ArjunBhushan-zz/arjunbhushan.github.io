@@ -14,6 +14,15 @@ header .about{
 header .resume{
   grid-area: 1 / 9 / spans 5 / span 1;
 }
+header .name{
+  grid-area: 1 / 2 / spans 5 / span 1;
+  background-image: url(https://drive.google.com/uc?export=download&id=1BinJvomsrkAcnODLHN83gSkL5i50EOl8);
+  z-index: 100;
+}
+header .name img{
+  width: 100px;
+  height: auto;
+}
 
 header .contact{
   grid-area: 1 / 10 / spans 5 / span 1;
@@ -31,7 +40,6 @@ header .contact{
   align-items: center;
   background-image: url(http://neufeldinstitute.org/wp-content/uploads/2016/06/web-main-background-grayscale.jpg);
   background-size: cover;
-  z-index: 10;
 }
 
 .box {
@@ -145,6 +153,7 @@ footer .icon a:hover{
   color: white;
   z-index: 10;
   text-decoration: none;
+  transition: 0.4s;
 }
 
 .banner-1 a:hover{
@@ -177,7 +186,9 @@ footer .icon a:hover{
   display: grid;
   grid-template: 100px 100px 100px / 1fr;
 }
-
+.banner-2 a{
+  grid-area: 3 / 1 / span 1 / span 1;
+}
 .banner-3{
   width: 100%;
   height: 500px;
@@ -319,6 +330,53 @@ footer .icon a:hover{
   font-weight: 400;
 }
 
+.content-porfolio{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.content-portfolio .titles {
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: capitalize;
+  grid-column: 1 / span 1;
+  color: rgba(26, 26, 26, 0.9);
+  margin-top:50px;
+  margin-left: 100px;
+  font-size: 26px;
+  margin-bottom:0px;
+}
+.content-portfolio p{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 20px;
+  margin-lefT: 100px;
+  margin-bottom: 40px;
+  grid-column: 2 / span 1;
+}
+.content-portfolio .media{
+  display: grid;
+  width: 100%;
+  margin: 20px;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 40px;
+}
+.content-portfolio .media .image-1{
+  grid-column: 1 / span 1;
+  width: 100%;
+  height: auto;
+}
+.content-portfolio .media .video-1{
+  grid-column: 2 / span 1;
+  height: 100%;
+  width: auto;
+}
+.content-portfolio .media .image-2{
+  grid-column: 3 / span 1;
+  width: 100%;
+  height: auto;
+}
 #end{
   margin-bottom: 100px;
 }
