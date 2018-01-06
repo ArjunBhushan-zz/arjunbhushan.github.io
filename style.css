@@ -357,7 +357,7 @@ footer .icon a:hover{
   display: grid;
   width: 100%;
   margin: 20px;
-  grid-gap: 20px;
+  grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   margin-bottom: 40px;
