@@ -352,12 +352,12 @@ footer .icon a:hover{
   margin-lefT: 100px;
   margin-bottom: 40px;
   grid-column: 2 / span 1;
+  line-height: 200%;
 }
 .content-portfolio .media{
   display: grid;
   width: 100%;
-  margin: 20px;
-  grid-gap: 10px;
+  margin: 30px;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   margin-bottom: 40px;
